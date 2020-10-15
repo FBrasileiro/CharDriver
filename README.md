@@ -19,5 +19,5 @@ sudo rm -rf /dev/m_device
 
 ## Study references
 
-[Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/)
+[Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/)<br>
 [The Linux Kernel Module Programming Guide](https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf)
