@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define BUFFER_SIZE 1024
-#define DEVICE_NAME "/dev/m_driver"
+#define DEVICE_NAME "/dev/char_driver"
 
 void read_d(int fd)
 {
@@ -14,7 +14,7 @@ void read_d(int fd)
     data[0] = '\0';
     if (read(fd, data, BUFFER_SIZE) < 0)
         printf("Error while reading\n");
-    if (data[0] != '\0')
+    else if (data[0] != '\0')
         printf("Readed: %s\n", data);
 
     free(data);
