@@ -2,22 +2,22 @@
 
 ## Initializing module
 
-```
-make
-sudo insmod chr_driver.ko
+```sh
+$ make
+$ sudo insmod chr_driver.ko
 
-cd /dev
-sudo mknod m_device c 245 0
+# Log messages
+$ sudo dmesg
 ```
 
 ## Removing module
 
-```
-sudo rmmod chr_driver.ko
-sudo rm -rf /dev/m_device
+```sh
+$ sudo rmmod chr_driver.ko
 ```
 
 ## Study references
 
-[Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/)<br>
-[The Linux Kernel Module Programming Guide](https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf)
+- [Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/)
+
+- [The Linux Kernel Module Programming Guide](https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf)
