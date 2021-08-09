@@ -20,4 +20,4 @@ $ sudo rmmod chr_driver.ko
 
 - [Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/)
 
-- [The Linux Kernel Module Programming Guide](https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf)
+- [The Linux Kernel Module Programming Guide](https://github.com/sysprog21/lkmpg)
