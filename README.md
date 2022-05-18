@@ -1,4 +1,4 @@
-# Simple Character Driver
+# Character Driver
 
 ## Initializing module
 
